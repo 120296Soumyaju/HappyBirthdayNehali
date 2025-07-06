@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>It's Nehali's😺🐶 Birthday🥳🎂 </title>
+    <link rel="icon" type="image/png" href="nehalit.png" />
+    <link rel="stylesheet" href="style.css" />
+    
+</head>
+
+<body>
+    <div class="birthday-wrapper">
+        <div class="intro-section">
+          <div id="introText" class="typing-text"></div>
+          <button id="startBtn" class="start-button">▶ Play</button>
+        </div>
+
+        <div class="scene hidden">
+            <div class="lights">
+                <div class="bulb red"></div>
+                <div class="bulb yellow"></div>
+                <div class="bulb blue"></div>
+                <div class="bulb green"></div>
+                <div class="bulb pink"></div>
+                <div class="bulb orange"></div>
+                <div class="bulb red"></div>
+                <div class="bulb yellow"></div>
+                <div class="bulb blue"></div>
+                <div class="bulb red"></div>
+                <div class="bulb yellow"></div>
+                <div class="bulb blue"></div>
+                <div class="bulb green"></div>
+                <div class="bulb pink"></div>
+                <div class="bulb orange"></div>
+                <div class="bulb red"></div>
+                <div class="bulb yellow"></div>
+                <div class="bulb blue"></div>
+                <div class="bulb red"></div>
+                <div class="bulb yellow"></div>
+                <div class="bulb blue"></div>
+                <div class="bulb green"></div>
+                <div class="bulb pink"></div>
+                <div class="bulb orange"></div>
+                <div class="bulb red"></div>
+                <div class="bulb yellow"></div>
+                <div class="bulb blue"></div>
+                <div class="bulb red"></div>
+                <div class="bulb yellow"></div>
+                <div class="bulb blue"></div>
+                <div class="bulb green"></div>
+                <div class="bulb pink"></div>
+                <div class="bulb orange"></div>
+                <div class="bulb red"></div>
+                <div class="bulb yellow"></div>
+                <div class="bulb blue"></div>
+                <div class="bulb red"></div>
+                <div class="bulb yellow"></div>
+                <div class="bulb blue"></div>
+                <div class="bulb green"></div>
+                <div class="bulb pink"></div>
+                <div class="bulb orange"></div>
+                <div class="bulb red"></div>
+                <div class="bulb yellow"></div>
+                <div class="bulb blue"></div>
+                <div class="bulb red"></div>
+                <div class="bulb yellow"></div>
+                <div class="bulb blue"></div>
+                <div class="bulb green"></div>
+                <div class="bulb pink"></div>
+                <div class="bulb orange"></div>
+                <div class="bulb red"></div>
+                <div class="bulb yellow"></div>
+                <div class="bulb blue"></div>
+            </div>
+
+            <div class="gold-banner">
+                <span>H</span>
+                <span>A</span>
+                <span>P</span>
+                <span>P</span>
+                <span>Y</span>
+                <span class="space"></span>
+                <span>B</span>
+                <span>I</span>
+                <span>R</span>
+                <span>T</span>
+                <span>H</span>
+                <span>D</span>
+                <span>A</span>
+                <span>Y</span>
+                <span class="space"></span>
+                <span>N</span>
+                <span>E</span>
+                <span>H</span>
+                <span>A</span>
+                <span>L</span>
+                <span>I</span>
+            </div>
+
+            <div id="micMessage" class="mic-message hidden">
+              Blow the candle using your mic 🎤
+            </div>
+            <div class="cake">
+                <div class="layer layer1">
+                    <div class="candle">
+                        <div class="wick"></div>
+                        <div class="flame" id="flame"></div>
+                    </div>
+                </div>
+                <div class="cream cream1"></div>
+                <div class="layer layer2"></div>
+                <div class="cream cream2"></div>
+                <div class="layer layer3"></div>
+                <div class="cream cream3"></div>
+            </div>
+
+            
+
+
+            <canvas id="confetti-canvas"></canvas>
+            <div class="balloon-container"></div>
+
+            <div class="animal-row">
+                <div class="dog-wrapper">
+                    <div class="dogcontainer">
+                        <div class="corgi">
+
+                            <div class="head">
+                                <div class="ear ear--r"></div>
+                                <div class="ear ear--l"></div>
+
+                                <div class="eye eye--left"></div>
+                                <div class="eye eye--right"></div>
+
+                                <div class="face">
+                                    <div class="face__white">
+                                        <div class=" face__orange face__orange--l"></div>
+                                        <div class=" face__orange face__orange--r"></div>
+                                    </div>
+                                </div>
+
+                                <div class="face__curve"></div>
+
+                                <div class="mouth">
+
+                                    <div class="nose"></div>
+                                    <div class="mouth__left">
+                                        <div class="mouth__left--round"></div>
+                                        <div class="mouth__left--sharp"></div>
+                                    </div>
+
+                                    <div class="lowerjaw">
+                                        <div class="lips"></div>
+                                        <div class="tongue test"></div>
+                                    </div>
+
+                                    <div class="snout"></div>
+                                </div>
+                            </div>
+
+                            <div class="neck__back"></div>
+                            <div class="neck__front"></div>
+
+                            <div class="body">
+                                <div class="body__chest"></div>
+                            </div>
+
+                            <div class="foot foot__left foot__front foot__1"></div>
+                            <div class="foot foot__right foot__front foot__2"></div>
+                            <div class="foot foot__left foot__back foot__3"></div>
+                            <div class="foot foot__right foot__back foot__4"></div>
+
+                            <div class="tail test"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gift-wrapper">
+              <div class="gift-box" id="giftBox" onclick="openGift()">
+                <div class="lid" id="lid"></div>
+                <div class="box"></div>
+                <div class="ribbon"></div>
+                <div class="click-text">Click to open Surprise 🎁 </div>
+              </div>
+
+              <div class="greeting-card hidden" id="greetingCard">
+                <div class="card-content">
+                  <h2>Dear Nehali 🎉</h2>
+                  <p>Wishing you a day full of joy, love and celebration! 🥳<br>Happy Birthday!</p>
+                  <button onclick="closeCard()">Close</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="cat-wrapper">
+                <div class="catcontainer">
+                    <div class="face">
+                        <div class="ear-l"></div>
+                        <div class="ear-r"></div>
+                    </div>
+                    <div class="hand-l"></div>
+                    <div class="hand-r"></div>
+                    <div class="leg-l"></div>
+                    <div class="leg-r"></div>
+                    <div class="music-note"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <audio id="song" src="assets/happy-birthday.mp3"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
