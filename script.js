@@ -1,6 +1,6 @@
 const startBtn = document.getElementById('startBtn');
 const introText = document.getElementById('introText');
-const fullMessage = "My dear best friend Nehali,\nIt's your birthday! 🎉\nI got some surprises for you.\nI hope you would love this.\n\nSo now... click on the Play button! 🎂";
+const fullMessage = "My dear best friend Nehali,\nIt's your birthday! 🎉\nI got some surprises for you.\nI hope you would love this.\n\nSo now... click on the Play button! 🎂\n\n - Sujju 😊";
 const song = document.getElementById('song');
 const scene = document.querySelector('.scene');
 const flame = document.getElementById('flame');
